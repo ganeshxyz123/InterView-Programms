@@ -7,13 +7,12 @@ public class NumberOfLetters {
 
 		for (int i = 0; i < s.length(); i++) {
 
-			for (int j = i; j < s.length(); j++) {
+			for (int j = 0; j <=i; j++) {
 
 				char c = s.charAt(i);
 
-				System.out.println(c);
+				System.out.print(c);
 			}
 		}
 	}
-
 }
